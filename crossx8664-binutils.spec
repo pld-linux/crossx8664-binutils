@@ -50,6 +50,7 @@ Ten pakiet zawiera wersjê skro¶n± generuj±c± kod dla AMD64.
 
 %prep
 %setup -q -n binutils-%{version}
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.sub .

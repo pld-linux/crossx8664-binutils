@@ -22,6 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		target		amd64-pld-linux
 %define		arch		%{_prefix}/%{target}
+%define		specflags	-Wno-error
 
 %description
 Binutils is a collection of binary utilities, including:

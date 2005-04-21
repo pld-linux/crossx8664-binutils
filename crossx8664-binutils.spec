@@ -5,12 +5,12 @@ Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla AMD64 - binutils
 Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - AMD64 binutils
 Summary(tr):	GNU geliþtirme araçlarý - AMD64 binutils
 Name:		crossamd64-binutils
-Version:	2.15.94.0.2.2
+Version:	2.16.90.0.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
-# Source0-md5:	e9bcf84d9e6b5a2d840e76f22a3fce5f
+# Source0-md5:	b231856d84a6181572b0b3371cfc6843
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
 BuildRequires:	bash

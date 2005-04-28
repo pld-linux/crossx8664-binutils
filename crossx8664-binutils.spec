@@ -11,6 +11,9 @@ License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
 # Source0-md5:	b231856d84a6181572b0b3371cfc6843
+Patch0:		binutils-needed.patch
+Patch1:		binutils-pr815.patch
+Patch2:		binutils-pr872.patch
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
 BuildRequires:	bash
@@ -50,6 +53,9 @@ Ten pakiet zawiera wersjê skro¶n± generuj±c± kod dla AMD64.
 
 %prep
 %setup -q -n binutils-%{version}
+%patch0 -p0
+%patch1 -p0
+%patch2 -p0
 
 %build
 cp -f /usr/share/automake/config.sub .

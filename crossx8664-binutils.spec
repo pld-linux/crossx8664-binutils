@@ -19,7 +19,6 @@ BuildRequires:	automake
 BuildRequires:	bash
 BuildRequires:	bison
 BuildRequires:	flex
-BuildRequires:	gettext-devel
 ExcludeArch:	amd64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -66,6 +65,7 @@ LDFLAGS="%{rpmldflags}" \
 CONFIG_SHELL="/bin/bash" \
 ./configure \
 	--disable-shared \
+	--disable-nls \
 	--prefix=%{_prefix} \
 	--libdir=%{_libdir} \
 	--mandir=%{_mandir} \

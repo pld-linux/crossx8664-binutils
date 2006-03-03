@@ -5,7 +5,7 @@ Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla x86-64 - binutils
 Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - x86-64 binutils
 Summary(tr):	GNU geliþtirme araçlarý - x86-64 binutils
 Name:		crossx8664-binutils
-Version:	2.16.91.0.5
+Version:	2.16.91.0.6
 Release:	1
 License:	GPL
 Group:		Development/Tools

@@ -17,6 +17,7 @@ BuildRequires:	bash
 BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	rpmbuild(macros) >= 1.211
+BuildRequires:	texinfo
 Obsoletes:	crossamd64-binutils
 ExcludeArch:	%{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

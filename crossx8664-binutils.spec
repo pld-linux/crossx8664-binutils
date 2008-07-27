@@ -6,7 +6,7 @@ Summary(pt_BR.UTF-8):	Utilitários para desenvolvimento de binários da GNU - x8
 Summary(tr.UTF-8):	GNU geliştirme araçları - x86-64 binutils
 Name:		crossx8664-binutils
 Version:	2.17.50.0.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2

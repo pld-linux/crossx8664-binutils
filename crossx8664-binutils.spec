@@ -5,12 +5,12 @@ Summary(pl.UTF-8):	Skrośne narzędzia programistyczne GNU dla x86-64 - binutils
 Summary(pt_BR.UTF-8):	Utilitários para desenvolvimento de binários da GNU - x86-64 binutils
 Summary(tr.UTF-8):	GNU geliştirme araçları - x86-64 binutils
 Name:		crossx8664-binutils
-Version:	2.17.50.0.3
-Release:	2
+Version:	2.26.1
+Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
-# Source0-md5:	684c535df0ff8ffaa11fe4aed14539e7
+Source0:	http://ftp.gnu.org/gnu/binutils/binutils-%{version}.tar.bz2
+# Source0-md5:	d2b24e5b5301b7ff0207414c34c3e0fb
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
 BuildRequires:	bash
